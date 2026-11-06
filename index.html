@@ -85,7 +85,7 @@ body{background:var(--olive-dark);color:var(--white);font-family:var(--text);-we
 <div class="ck" id="ck" hidden role="dialog" aria-label="Cookie"><div><b>Cookie di misurazione.</b> Usiamo il Pixel di Meta per capire quante persone arrivano dalle inserzioni. Lo attiviamo solo se accetti.</div><div class="ck-row"><button type="button" id="ck-no">Rifiuta</button><button type="button" class="ok" id="ck-ok">Accetta</button></div></div>
 <script>
 /* Meta Pixel: si carica solo dopo il consenso. Inserire l'ID per attivarlo */
-var PIXEL_ID='';var cq=function(){};
+var PIXEL_ID='1141629401780494';var cq=function(){};
 (function(){if(!PIXEL_ID)return;var KEY='cq-consent',ck=document.getElementById('ck'),v=null;try{v=localStorage.getItem(KEY)}catch(e){}
 function load(){!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init',PIXEL_ID);fbq('track','PageView');cq=function(ev,c){c?fbq('trackCustom',ev):fbq('track',ev)}}
